@@ -1,0 +1,16 @@
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\bin\Debug\_Data.dll.config
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\bin\Debug\_Data.dll
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\bin\Debug\_Data.pdb
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\obj\Debug\_Data.Properties.Resources.resources
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\obj\Debug\_Data.csproj.GenerateResource.Cache
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\obj\Debug\_Data.dll
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\obj\Debug\_Data.pdb
+C:\Users\Ravil\Desktop\Учеба\4 курс\1 семестр\Долгов\lab1\_Data\obj\Debug\_Data.csprojResolveAssemblyReference.cache
+C:\___study\_Диплом\lab1_3\lab1\_Data\bin\Debug\_Data.dll.config
+C:\___study\_Диплом\lab1_3\lab1\_Data\bin\Debug\_Data.dll
+C:\___study\_Диплом\lab1_3\lab1\_Data\bin\Debug\_Data.pdb
+C:\___study\_Диплом\lab1_3\lab1\_Data\obj\Debug\_Data.csprojResolveAssemblyReference.cache
+C:\___study\_Диплом\lab1_3\lab1\_Data\obj\Debug\_Data.Properties.Resources.resources
+C:\___study\_Диплом\lab1_3\lab1\_Data\obj\Debug\_Data.csproj.GenerateResource.Cache
+C:\___study\_Диплом\lab1_3\lab1\_Data\obj\Debug\_Data.dll
+C:\___study\_Диплом\lab1_3\lab1\_Data\obj\Debug\_Data.pdb

@@ -1,0 +1,8 @@
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\bin\Debug\Task2.exe.config
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\bin\Debug\Task2.exe
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\bin\Debug\Task2.pdb
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\bin\Debug\_Data.dll
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\bin\Debug\_Data.pdb
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\obj\Debug\Task2.exe
+C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\Task2\Task2\obj\Debug\Task2.pdb
