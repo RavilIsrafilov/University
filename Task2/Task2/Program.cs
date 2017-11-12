@@ -12,9 +12,12 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            BigInteger N = 341;
+            BigInteger N = 961792614553;
             BigInteger wit = WitnessesFinder.GetWitnesses(N);
 
+            var doubleEulerN = Double.Parse(MathMethods.Euler(N).ToString());
+            var doubleWit = Double.Parse(wit.ToString());
+            var divide = (Double)Math.Round(doubleWit / doubleEulerN, 6);           
         }
 
         

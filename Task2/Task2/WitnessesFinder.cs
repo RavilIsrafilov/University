@@ -10,11 +10,12 @@ namespace Task2
 {
     public static class WitnessesFinder
     {
-        const int iterations = 500;
+        const int iterations = 100;
         public static BigInteger GetWitnesses(BigInteger N)
         {
             List<BigInteger> listSet = GetFirstPoint(N);
             Dictionary<int, Subset> dictionaryBin = GetSecondPoint(listSet);
+           
             //third  point
             foreach (var _item in dictionaryBin)
             {
@@ -42,19 +43,64 @@ namespace Task2
             List<BigInteger> listNumsP = FactorizationPollard.FactoryToList(p - 1, iterations);
             List<BigInteger> listNumsPFull = new List<BigInteger>();
             listNumsPFull.AddRange(listNumsP);
+            
+            BigInteger _result = 1;
             for (int j = 0; j < listNumsP.Count - 1; j++)
             {
                 for (int i = j + 1; i < listNumsP.Count; i++)
-                    listNumsPFull.Add(listNumsP[j] * listNumsP[i]);
+                {
+                    BigInteger mult = listNumsP[j] * listNumsP[i];
+                    _result = _result * mult;
+
+                    if (!listNumsPFull.Contains(mult) && mult <= p - 1 && (p - 1) % mult == 0)
+                        listNumsPFull.Add(mult);
+
+                    if (!listNumsPFull.Contains(_result) && _result <= p - 1 && (p - 1) % _result == 0)
+                        listNumsPFull.Add(_result);
+                    else
+                        _result = 1;  
+                }
+            }
+
+            for (int j = 0; j < listNumsPFull.Count - 1; j++)
+            {
+                for (int i = j + 1; i < listNumsPFull.Count; i++)
+                {
+                    _result = listNumsPFull[j] * listNumsPFull[i];
+                    if (!listNumsPFull.Contains(_result) && _result <= p - 1 && (p - 1) % _result == 0)
+                        listNumsPFull.Add(_result);
+                }
             }
 
             List<BigInteger> listNumsQ = FactorizationPollard.FactoryToList(q - 1, iterations);
             List<BigInteger> listNumsQFull = new List<BigInteger>();
-            listNumsQFull.AddRange(listNumsQ);
+            listNumsQFull.AddRange(listNumsQ);            
+            _result = 1;
             for (int j = 0; j < listNumsQ.Count - 1; j++)
             {
                 for (int i = j + 1; i < listNumsQ.Count; i++)
-                    listNumsQFull.Add(listNumsQ[j] * listNumsQ[i]);
+                {
+                    BigInteger mult = listNumsQ[j] * listNumsQ[i];
+                    _result = _result * mult;
+
+                    if (!listNumsQFull.Contains(mult) && mult <= q - 1 && (q - 1) % mult == 0)
+                        listNumsQFull.Add(mult);
+
+                    if (!listNumsQFull.Contains(_result) && _result <= q - 1 && (q - 1) % _result == 0)
+                        listNumsQFull.Add(_result);
+                    else
+                        _result = 1;
+                }
+            }
+            _result = 1;
+            for (int j = 0; j < listNumsQFull.Count - 1; j++)
+            {
+                for (int i = j + 1; i < listNumsQFull.Count; i++)
+                {
+                    _result = listNumsQFull[j] * listNumsQFull[i];
+                    if (!listNumsQFull.Contains(_result) && _result <= q - 1 && (q - 1) % _result == 0)
+                        listNumsQFull.Add(_result);
+                }
             }
 
             List<BigInteger> listNumsIntersected = listNumsQFull.Intersect(listNumsPFull).ToList();
