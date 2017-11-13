@@ -8,7 +8,7 @@ using _Data.Math;
 
 namespace Task2
 {
-    public static class WitnessesFinder
+    public static class WitnessesFinderTwoFactors
     {
         const int iterations = 100;
         public static BigInteger GetWitnesses(BigInteger N)

@@ -12,12 +12,17 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            BigInteger N = 961792614553;
-            BigInteger wit = WitnessesFinder.GetWitnesses(N);
+            BigInteger N = 8376451;
+            BigInteger wit = WitnessesFinderTwoFactors.GetWitnesses(N);
 
-            var doubleEulerN = Double.Parse(MathMethods.Euler(N).ToString());
-            var doubleWit = Double.Parse(wit.ToString());
-            var divide = (Double)Math.Round(doubleWit / doubleEulerN, 6);           
+            N = 2821;
+            wit = WitnessesFinderThreeFactors.GetWitnesses(N);
+
+            //Random qwe = new Random(DateTime.Now.Millisecond);
+
+            //var doubleEulerN = Double.Parse(MathMethods.Euler(N).ToString());
+            //var doubleWit = Double.Parse(wit.ToString());
+            //var divide = (Double)Math.Round(doubleWit / doubleEulerN, 6);           
         }
 
         
