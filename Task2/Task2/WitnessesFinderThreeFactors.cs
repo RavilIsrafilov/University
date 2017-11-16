@@ -15,6 +15,15 @@ namespace Task2
         {
             List<BigInteger>[] listSet = GetFirstPoint(N);
             Dictionary<int, Subset>[] dictionaryBin = GetSecondPoint(listSet);
+            int maxBin = GetThirdPoint(dictionaryBin);
+
+            foreach (var item in dictionaryBin)
+            {
+                int maxKey = item.Keys.Max();
+                for (int i = maxBin + 1; i <= maxKey; i++)
+                    item.Remove(i);
+            }
+
 
             //third  point
             //foreach (var _item in dictionaryBin)
@@ -116,12 +125,29 @@ namespace Task2
                     Subset _subset = new Subset();
                     _subset.Values = new List<BigInteger>();
                     _subset.Values.Add(item);
+                    //_subset.Bin = currentBin;
                     dictionaryBin.Add(currentBin, _subset);
                 }
                 if (maxBin < currentBin)
                     maxBin = currentBin;
             }
             return dictionaryBin;
+        }
+
+        private static int GetThirdPoint(Dictionary<int, Subset>[] dictionaryBin)
+        {
+            var first = dictionaryBin[0];
+            var second = dictionaryBin[1];
+            var third = dictionaryBin[2];
+            int i = 1;
+
+            for (;;)
+            {
+                if (first.ContainsKey(i) & first.ContainsKey(i) & first.ContainsKey(i))
+                    i++;
+                else
+                    return i-1;
+            }            
         }
 
         private static BigInteger GetEulerSum(List<BigInteger> _list)

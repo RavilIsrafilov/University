@@ -35,3 +35,10 @@ C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\_Data\ob
 C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\_Data\obj\Debug\EncryptHelperLibrary.csproj.GenerateResource.Cache
 C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\_Data\obj\Debug\_Data.dll
 C:\Users\Ravil\Desktop\Учеба\__Магистратура\Ишмух\_Data\obj\Debug\_Data.pdb
+C:\_git\University\_Data\bin\Debug\_Data.dll.config
+C:\_git\University\_Data\bin\Debug\_Data.dll
+C:\_git\University\_Data\bin\Debug\_Data.pdb
+C:\_git\University\_Data\obj\Debug\_Data.Properties.Resources.resources
+C:\_git\University\_Data\obj\Debug\EncryptHelperLibrary.csproj.GenerateResource.Cache
+C:\_git\University\_Data\obj\Debug\_Data.dll
+C:\_git\University\_Data\obj\Debug\_Data.pdb

@@ -14,3 +14,11 @@ C:\_git\GetWitnessesOfNum\Task2\Task2\bin\Debug\Task2.pdb
 C:\_git\GetWitnessesOfNum\Task2\Task2\bin\Debug\_Data.dll
 C:\_git\GetWitnessesOfNum\Task2\Task2\bin\Debug\_Data.pdb
 C:\_git\GetWitnessesOfNum\Task2\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+C:\_git\University\Task2\Task2\bin\Debug\Task2.exe.config
+C:\_git\University\Task2\Task2\obj\Debug\Task2.exe
+C:\_git\University\Task2\Task2\obj\Debug\Task2.pdb
+C:\_git\University\Task2\Task2\bin\Debug\Task2.exe
+C:\_git\University\Task2\Task2\bin\Debug\Task2.pdb
+C:\_git\University\Task2\Task2\bin\Debug\_Data.dll
+C:\_git\University\Task2\Task2\bin\Debug\_Data.pdb
+C:\_git\University\Task2\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache

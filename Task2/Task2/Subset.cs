@@ -11,6 +11,6 @@ namespace Task2
     {
         public List<BigInteger> Values { get; set; }
         public BigInteger EylerValue { get; set; }
-
+        //public int Bin { get; set; }
     }
 }
